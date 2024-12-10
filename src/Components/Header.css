@@ -1,0 +1,5 @@
+.dropdown-transition{
+    transform: translateY(50%);
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
