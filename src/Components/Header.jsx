@@ -187,7 +187,7 @@ export function UserSelect({ setUserSelectIsOpen }) {
 
   return (
     <div
-      className="bg-white border border-gray-300 shadow-lg rounded-md p-4 max-h-60 w-48 font-['mulish','sans-serif']"
+      className="bg-white border border-gray-300 shadow-lg rounded-md p-4 max-h-60 w-48 font-['mulish','sans-serif'] "
       onMouseEnter={() => setUserSelectIsOpen(true)}
       onMouseLeave={() => setUserSelectIsOpen(false)}
     >
